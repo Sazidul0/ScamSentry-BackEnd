@@ -79,7 +79,7 @@ app.get('/api/:lang/get_summary', async (req, res) => {
 app.get('/api/:lang/get_training_data', (req, res) => {
     const { lang } = req.params;
     try {
-        const data = fs.readFileSync('data.json', 'utf8');
+        const data = fs.readFileSync('./data.json', 'utf8');
         const jsonData = JSON.parse(data);
         const trainingData = jsonData[lang];
         if (!trainingData) {
