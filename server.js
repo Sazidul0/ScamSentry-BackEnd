@@ -2,7 +2,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
+const fetch = (...args) => import('node-fetch').then(module => module.default(...args));
 const axios = require('axios');
 require('dotenv').config();
 const { GoogleGenerativeAI } = require('@google/generative-ai');
