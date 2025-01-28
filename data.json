@@ -1,0 +1,558 @@
+{
+    "en": {
+        "conversations": [
+            {
+                "scenario": "Bikash scam",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "You have received a payment of 5,000 BDT. Please call this number to confirm."
+                    },
+                    {
+                        "role": "user",
+                        "message": "Did I actually receive money?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "Yes, it was sent directly to your account. Call now to get it activated."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll check my account directly instead."
+                    }
+                ]
+            },
+            {
+                "scenario": "Nagad scam",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "Your Nagad account will be locked if you do not update your information. Click this link now."
+                    },
+                    {
+                        "role": "user",
+                        "message": "Is this legitimate?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "It’s urgent! You must update your information to avoid issues with your account."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll contact Nagad directly to check."
+                    }
+                ]
+            },
+            {
+                "scenario": "Bank account phishing",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "Your bank account has been flagged for suspicious activity. Please verify your account to avoid suspension."
+                    },
+                    {
+                        "role": "user",
+                        "message": "Is this real? I didn’t receive any alerts."
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "It’s urgent. Click this link to secure your account immediately."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I will call my bank’s official customer service to confirm."
+                    }
+                ]
+            },
+            {
+                "scenario": "Prize winnings scam",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "Congratulations! You have won a huge prize! Call now to claim your winnings."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I don’t remember entering any contest. Is this a scam?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "It’s a special promotion, just for you! Don’t miss out!"
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll ignore this and look for any official announcements about this prize."
+                    }
+                ]
+            },
+            {
+                "scenario": "Online shopping scam",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "Congratulations! You’ve won a free iPhone! Just pay shipping fees to claim it."
+                    },
+                    {
+                        "role": "user",
+                        "message": "Is this a legitimate offer?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "Yes! The promotion is only available for a limited time. Pay now to receive your iPhone."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll look up reviews of this offer before making any payment."
+                    }
+                ]
+            },
+            {
+                "scenario": "Job offer scam",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "You have been selected for a high-paying job. Please provide your bank details to receive your first paycheck."
+                    },
+                    {
+                        "role": "user",
+                        "message": "Is this job offer real?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "Yes, you’ve been chosen for an exclusive opportunity. Don’t miss out on this amazing offer!"
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll research the company first and verify the offer."
+                    }
+                ]
+            },
+            {
+                "scenario": "Lottery scam",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "Congratulations! You've won a huge lottery! To claim your prize, send us a processing fee."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I don’t remember entering any lottery. Is this real?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "Yes, you were randomly selected. Send the fee to claim your winnings."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll ignore this message and check with the lottery authorities."
+                    }
+                ]
+            },
+            {
+                "scenario": "Banking fraud",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "We’ve detected suspicious activity on your account. Please log in immediately to secure your account."
+                    },
+                    {
+                        "role": "user",
+                        "message": "Is my bank account really compromised?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "Yes, you must act quickly to avoid further issues. Click this link to resolve it."
+                    },
+                    {
+                        "role": "user",
+                        "message": "I’ll contact my bank directly to verify the issue."
+                    }
+                ]
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "What should you do if someone claims you received unexpected money?",
+                "options": [
+                    "Call the number provided",
+                    "Verify your account independently"
+                ],
+                "answer": "Verify your account independently"
+            },
+            {
+                "question": "What should you do if you receive an urgent request to update your account details?",
+                "options": [
+                    "Click the link immediately to update",
+                    "Contact the company directly through their official channels"
+                ],
+                "answer": "Contact the company directly through their official channels"
+            },
+            {
+                "question": "If you receive a message claiming you've won a prize, what should you do?",
+                "options": [
+                    "Call the number and claim the prize",
+                    "Ignore the message and verify through official sources"
+                ],
+                "answer": "Ignore the message and verify through official sources"
+            },
+            {
+                "question": "What should you do if you receive an email asking for your personal information?",
+                "options": [
+                    "Click on the link and provide the details",
+                    "Contact the company directly through their official website"
+                ],
+                "answer": "Contact the company directly through their official website"
+            },
+            {
+                "question": "If you receive a message with a suspicious link asking you to update your bank account details, what should you do?",
+                "options": [
+                    "Click on the link and update your details",
+                    "Contact your bank directly to verify the request"
+                ],
+                "answer": "Contact your bank directly to verify the request"
+            },
+            {
+                "question": "What should you do if someone offers you a too-good-to-be-true deal online?",
+                "options": [
+                    "Take advantage of the offer right away",
+                    "Research and verify the deal before making any decisions"
+                ],
+                "answer": "Research and verify the deal before making any decisions"
+            },
+            {
+                "question": "If you receive a phone call claiming to be from the police or government, asking for money, what should you do?",
+                "options": [
+                    "Send the money immediately to resolve the situation",
+                    "Hang up and contact the relevant authorities directly"
+                ],
+                "answer": "Hang up and contact the relevant authorities directly"
+            },
+            {
+                "question": "If you are asked to provide sensitive personal information over the phone or email, what should you do?",
+                "options": [
+                    "Share the information to resolve the issue",
+                    "Be cautious and verify the identity of the requester before sharing any details"
+                ],
+                "answer": "Be cautious and verify the identity of the requester before sharing any details"
+            },
+            {
+                "question": "What should you do if a website offers a free product, but asks for your credit card information?",
+                "options": [
+                    "Enter your credit card information to claim the product",
+                    "Avoid entering your details and search for reviews of the website"
+                ],
+                "answer": "Avoid entering your details and search for reviews of the website"
+            },
+            {
+                "question": "If you receive a suspicious job offer with a high salary and no interview, what should you do?",
+                "options": [
+                    "Accept the offer and send your documents",
+                    "Research the company and verify the job offer before taking any action"
+                ],
+                "answer": "Research the company and verify the job offer before taking any action"
+            },
+            {
+                "question": "What should you do if a friend sends you a link, but asks you to send money to a third party?",
+                "options": [
+                    "Send the money to help them out",
+                    "Contact your friend directly to confirm the request before taking action"
+                ],
+                "answer": "Contact your friend directly to confirm the request before taking action"
+            },
+            {
+                "question": "If you receive a text message claiming your account has been compromised, what should you do?",
+                "options": [
+                    "Click on the link to resolve the issue",
+                    "Contact your bank or service provider directly using their official contact details"
+                ],
+                "answer": "Contact your bank or service provider directly using their official contact details"
+            },
+            {
+                "question": "What should you do if someone offers to 'clean' your credit report for a fee?",
+                "options": [
+                    "Agree to pay the fee for the service",
+                    "Report the offer to the authorities as it could be a scam"
+                ],
+                "answer": "Report the offer to the authorities as it could be a scam"
+            }
+        ]
+    },
+    "bn": {
+        "conversations": [
+            {
+                "scenario": "বিকাশ প্রতারণা",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "আপনার বিকাশ অ্যাকাউন্টে ৫,০০০ টাকা জমা হয়েছে। দয়া করে নিশ্চিত করতে এই নম্বরে কল করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি কি আসলেই টাকা পেয়েছি?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "হ্যাঁ, এটি সরাসরি আপনার অ্যাকাউন্টে পাঠানো হয়েছে। এখনই কল করে এটি সক্রিয় করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি সরাসরি আমার অ্যাকাউন্ট চেক করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "নগদ প্রতারণা",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "আপনার নগদ অ্যাকাউন্ট লক হয়ে যাবে যদি আপনি তথ্য আপডেট না করেন। এখনই এই লিঙ্কে ক্লিক করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "এটা কি বৈধ?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "এটা জরুরি! আপনার অ্যাকাউন্টে সমস্যা এড়াতে এখনই আপনার তথ্য আপডেট করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি সরাসরি নগদ কাস্টমার সার্ভিসে যোগাযোগ করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "ব্যাংক অ্যাকাউন্ট ফিশিং",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "আপনার ব্যাংক অ্যাকাউন্ট সন্দেহজনক কার্যক্রমের জন্য চিহ্নিত হয়েছে। অ্যাকাউন্ট ব্লক হওয়া থেকে রক্ষা পেতে দয়া করে আপনার তথ্য যাচাই করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "এটা কি আসল? আমি কোনো এলার্ট পাইনি।"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "এটা জরুরি। আপনার অ্যাকাউন্ট নিরাপদ করতে এখনই এই লিঙ্কে ক্লিক করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি আমার ব্যাংকের অফিসিয়াল কাস্টমার সার্ভিসে যোগাযোগ করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "পুরস্কারের স্ক্যাম",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "অভিনন্দন! আপনি বিশাল পুরস্কার জিতেছেন! পুরস্কার দাবি করতে এখনই কল করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি কোনো কনটেস্টে অংশগ্রহণ করি নি। এটা কি প্রতারণা?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "এটি একটি বিশেষ প্রচার, শুধু আপনার জন্য! সুযোগ হাতছাড়া করবেন না!"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি এই মেসেজটি উপেক্ষা করব এবং অফিসিয়াল ঘোষণা চেক করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "অনলাইন শপিং প্রতারণা",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "অভিনন্দন! আপনি একটি ফ্রি আইফোন জিতেছেন! শিপিং ফি প্রদান করে এটি দাবি করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "এটি কি একটি বৈধ অফার?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "হ্যাঁ! এই প্রচারণাটি সীমিত সময়ের জন্য উপলব্ধ। এখনই শিপিং ফি প্রদান করুন এবং আপনার আইফোন পান।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি এই অফারের পর্যালোচনা করব এবং তারপরেই কোনো পেমেন্ট করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "চাকরি প্রস্তাব প্রতারণা",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "আপনাকে একটি উচ্চ বেতনের চাকরির জন্য নির্বাচিত করা হয়েছে। দয়া করে আপনার ব্যাংক তথ্য প্রদান করুন, যাতে আপনার প্রথম বেতন পাঠানো হয়।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "এটি কি সত্যিকার চাকরি প্রস্তাব?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "হ্যাঁ, আপনাকে একটি এক্সক্লুসিভ সুযোগ দেওয়া হয়েছে। এই অসাধারণ প্রস্তাবটি মিস করবেন না!"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি প্রথমে কোম্পানিটির সম্পর্কে গবেষণা করব এবং তারপর প্রস্তাবটি যাচাই করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "লটারির স্ক্যাম",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "অভিনন্দন! আপনি বিশাল একটি লটারি জিতেছেন! আপনার পুরস্কার দাবি করতে একটি প্রসেসিং ফি পাঠান।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি কোনো লটারি অংশগ্রহণ করিনি। এটি কি সত্যি?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "হ্যাঁ, আপনাকে র‍্যান্ডমলি নির্বাচিত করা হয়েছে। পুরস্কারটি দাবি করতে ফি পাঠান।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি এই মেসেজটি উপেক্ষা করব এবং লটারি কর্তৃপক্ষের সাথে যাচাই করব।"
+                    }
+                ]
+            },
+            {
+                "scenario": "ব্যাংক প্রতারণা",
+                "conversation": [
+                    {
+                        "role": "scammer",
+                        "message": "আমরা আপনার অ্যাকাউন্টে সন্দেহজনক কার্যক্রম শনাক্ত করেছি। দয়া করে তাত্ক্ষণিকভাবে লগ ইন করুন এবং আপনার অ্যাকাউন্ট সুরক্ষিত করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমার ব্যাংক অ্যাকাউন্ট কি আসলেই বিপদে?"
+                    },
+                    {
+                        "role": "scammer",
+                        "message": "হ্যাঁ, আপনাকে দ্রুত পদক্ষেপ নিতে হবে। এই লিঙ্কে ক্লিক করুন এবং সমস্যাটি সমাধান করুন।"
+                    },
+                    {
+                        "role": "user",
+                        "message": "আমি সরাসরি আমার ব্যাংকের সাথে যোগাযোগ করব এবং বিষয়টি যাচাই করব।"
+                    }
+                ]
+            }
+        ],
+        "quizzes": [
+            {
+                "question": "যদি কেউ বলে আপনি অপ্রত্যাশিত টাকা পেয়েছেন তবে আপনার কী করা উচিত?",
+                "options": [
+                    "প্রদত্ত নম্বরে কল করুন",
+                    "স্বতন্ত্রভাবে আপনার অ্যাকাউন্ট যাচাই করুন"
+                ],
+                "answer": "স্বতন্ত্রভাবে আপনার অ্যাকাউন্ট যাচাই করুন"
+            },
+            {
+                "question": "আপনি যদি জরুরি অনুরোধ পান আপনার অ্যাকাউন্ট তথ্য আপডেট করতে, আপনাকে কী করা উচিত?",
+                "options": [
+                    "তত্ক্ষণাত্ লিঙ্কে ক্লিক করুন",
+                    "অফিশিয়াল চ্যানেলের মাধ্যমে সরাসরি কোম্পানির সাথে যোগাযোগ করুন"
+                ],
+                "answer": "অফিশিয়াল চ্যানেলের মাধ্যমে সরাসরি কোম্পানির সাথে যোগাযোগ করুন"
+            },
+            {
+                "question": "যদি আপনি একটি পুরস্কার জিতেছেন বলে মেসেজ পান, তবে আপনার কী করা উচিত?",
+                "options": [
+                    "প্রদত্ত নম্বরে কল করুন এবং পুরস্কার দাবি করুন",
+                    "মেসেজটি উপেক্ষা করুন এবং অফিসিয়াল সূত্রে যাচাই করুন"
+                ],
+                "answer": "মেসেজটি উপেক্ষা করুন এবং অফিসিয়াল সূত্রে যাচাই করুন"
+            },
+            {
+                "question": "যদি আপনি একটি ইমেইল পান যেখানে আপনার ব্যক্তিগত তথ্য চাওয়া হয়েছে, আপনার কী করা উচিত?",
+                "options": [
+                    "লিঙ্কে ক্লিক করে বিস্তারিত দিন",
+                    "অফিশিয়াল ওয়েবসাইটের মাধ্যমে সরাসরি কোম্পানির সাথে যোগাযোগ করুন"
+                ],
+                "answer": "অফিশিয়াল ওয়েবসাইটের মাধ্যমে সরাসরি কোম্পানির সাথে যোগাযোগ করুন"
+            },
+            {
+                "question": "যদি আপনি একটি সন্দেহজনক লিঙ্ক সহ মেসেজ পান যেখানে আপনার ব্যাংক অ্যাকাউন্ট তথ্য আপডেট করতে বলা হয়, আপনাকে কী করা উচিত?",
+                "options": [
+                    "লিঙ্কে ক্লিক করে আপনার তথ্য আপডেট করুন",
+                    "আপনার ব্যাংকের সাথে সরাসরি যোগাযোগ করুন এবং অনুরোধটি যাচাই করুন"
+                ],
+                "answer": "আপনার ব্যাংকের সাথে সরাসরি যোগাযোগ করুন এবং অনুরোধটি যাচাই করুন"
+            },
+            {
+                "question": "যদি আপনি অনলাইনে একটি অতিরিক্ত লাভজনক প্রস্তাব পান, তবে আপনার কী করা উচিত?",
+                "options": [
+                    "অবিলম্বে প্রস্তাবটি গ্রহণ করুন",
+                    "প্রস্তাবটি যাচাই করুন এবং গবেষণা করে সিদ্ধান্ত নিন"
+                ],
+                "answer": "প্রস্তাবটি যাচাই করুন এবং গবেষণা করে সিদ্ধান্ত নিন"
+            },
+            {
+                "question": "যদি আপনি ফোন কল পান যেখানে দাবি করা হয় যে এটি পুলিশ বা সরকারের পক্ষ থেকে, এবং টাকা চাইছে, আপনি কী করবেন?",
+                "options": [
+                    "এমন পরিস্থিতি সমাধান করতে টাকা পাঠিয়ে দিন",
+                    "কলটি বন্ধ করে দিন এবং সংশ্লিষ্ট কর্তৃপক্ষের সাথে সরাসরি যোগাযোগ করুন"
+                ],
+                "answer": "কলটি বন্ধ করে দিন এবং সংশ্লিষ্ট কর্তৃপক্ষের সাথে সরাসরি যোগাযোগ করুন"
+            },
+            {
+                "question": "যদি আপনি ফোন বা ইমেইলে গোপনীয় ব্যক্তিগত তথ্য প্রদান করার জন্য বলা হয়, আপনার কী করা উচিত?",
+                "options": [
+                    "তথ্য শেয়ার করুন যাতে সমস্যা সমাধান হয়",
+                    "সতর্ক থাকুন এবং তথ্য শেয়ার করার আগে প্রেরকের পরিচয় যাচাই করুন"
+                ],
+                "answer": "সতর্ক থাকুন এবং তথ্য শেয়ার করার আগে প্রেরকের পরিচয় যাচাই করুন"
+            },
+            {
+                "question": "যদি একটি ওয়েবসাইট একটি বিনামূল্যে পণ্য অফার করে, তবে আপনার ক্রেডিট কার্ড তথ্য চাওয়া হয়, আপনার কী করা উচিত?",
+                "options": [
+                    "ক্রেডিট কার্ড তথ্য দিন পণ্যটি দাবি করতে",
+                    "আপনার বিস্তারিত তথ্য না দিয়ে ওয়েবসাইটটির পর্যালোচনা খুঁজুন"
+                ],
+                "answer": "আপনার বিস্তারিত তথ্য না দিয়ে ওয়েবসাইটটির পর্যালোচনা খুঁজুন"
+            },
+            {
+                "question": "যদি আপনি একটি সন্দেহজনক চাকরির প্রস্তাব পান যা উচ্চ বেতন দেয় এবং কোন সাক্ষাৎকার নেই, তাহলে আপনার কী করা উচিত?",
+                "options": [
+                    "প্রস্তাবটি গ্রহণ করুন এবং আপনার দলিল পাঠিয়ে দিন",
+                    "কোম্পানিটি গবেষণা করুন এবং চাকরির প্রস্তাব যাচাই করুন"
+                ],
+                "answer": "কোম্পানিটি গবেষণা করুন এবং চাকরির প্রস্তাব যাচাই করুন"
+            },
+            {
+                "question": "যদি একটি বন্ধু আপনাকে একটি লিঙ্ক পাঠায়, কিন্তু আপনাকে তৃতীয় পক্ষকে টাকা পাঠানোর জন্য বলে, আপনার কী করা উচিত?",
+                "options": [
+                    "টাকা পাঠিয়ে দিন তাদের সাহায্য করতে",
+                    "বন্ধুর সাথে সরাসরি যোগাযোগ করুন এবং অনুরোধটি নিশ্চিত করুন"
+                ],
+                "answer": "বন্ধুর সাথে সরাসরি যোগাযোগ করুন এবং অনুরোধটি নিশ্চিত করুন"
+            },
+            {
+                "question": "যদি আপনি একটি টেক্সট মেসেজ পান যা দাবি করে যে আপনার অ্যাকাউন্ট ক্ষতিগ্রস্ত হয়েছে, আপনার কী করা উচিত?",
+                "options": [
+                    "সমস্যা সমাধান করতে লিঙ্কে ক্লিক করুন",
+                    "আপনার ব্যাংক বা সেবা প্রদানকারীর সাথে সরাসরি যোগাযোগ করুন তাদের অফিসিয়াল যোগাযোগের তথ্য ব্যবহার করে"
+                ],
+                "answer": "আপনার ব্যাংক বা সেবা প্রদানকারীর সাথে সরাসরি যোগাযোগ করুন তাদের অফিসিয়াল যোগাযোগের তথ্য ব্যবহার করে"
+            },
+            {
+                "question": "যদি কেউ আপনাকে 'ক্রেডিট রিপোর্ট পরিষ্কার' করার জন্য একটি ফি দেওয়ার প্রস্তাব দেয়, আপনার কী করা উচিত?",
+                "options": [
+                    "সেবাটির জন্য ফি দিতে রাজি হন",
+                    "প্রস্তাবটি কর্তৃপক্ষের কাছে রিপোর্ট করুন কারণ এটি একটি প্রতারণা হতে পারে"
+                ],
+                "answer": "প্রস্তাবটি কর্তৃপক্ষের কাছে রিপোর্ট করুন কারণ এটি একটি প্রতারণা হতে পারে"
+            }
+        ]
+    }
+}
