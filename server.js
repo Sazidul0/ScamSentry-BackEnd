@@ -65,9 +65,9 @@ app.get('/api/:lang/get_summary', async (req, res) => {
         const result = await model.generateContent(prompt);
         let summary = result.response.text();
 
-        if (lang === 'bn') {
-            summary = await translateToBangla(summary);
-        }
+        // if (lang === 'bn') {
+        //     summary = await translateToBangla(summary);
+        // }
         res.json({ summary });
     } catch (error) {
         console.error("Summary Error:", error.message);
